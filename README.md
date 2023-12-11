@@ -29,7 +29,7 @@ In addition, there is a Gerber file for the panel, following the HP standard. My
 You can use the panel Gerber file to have the panel built out of PCB material.
 
 ## Additional Information about Components
-The module design is mainly through-hole with the exception of several SMD capacitors (package 1608 metric or 0603 imperial) and two PNP transistors (package SOT 23-3).
+The module design is mainly through-hole with the exception of several SMD capacitors (package 1608 metric or 0603 imperial) and two PNP transistors (package SOT-23).
 
 Concerning the resistor size, I am usually using small-size resistors, about half the length of the usual size, so they need less space on the PCB. If you want to use my Gerber files, you have to consider that fact. You might still use normal size resistors and put them in a standing position on the boards. Should also work fine.
 
