@@ -31,7 +31,7 @@ You can use the panel Gerber file to have the panel built out of PCB material.
 ## Additional Information about Components
 The module design is mainly through-hole with the exception of several SMD capacitors (package 1608 metric or 0603 imperial) and two PNP transistors (package SOT-23).
 
-Concerning the resistor size, I am usually using small-size resistors, about half the length of the usual size, so they need less space on the PCB. If you want to use my Gerber files, you have to consider that fact. You might still use normal size resistors and put them in a standing position on the boards. Should also work fine.
+Concerning the resistor size, I am usually using small-size resistors, about half the length of the usual size, so they need less space on the PCB. If you want to use my Gerber files, you have to consider that fact. You might still use normal size resistors and put them in a standing position on the boards. Should also work fine. The only exception are two 10MOhm resistors on the control board, which have the standard 6.5mm size.
 
 On the control board, you will find electrolytic capacitors with a rectangle next to them. Since these capacitors are too tall for standing upright on the board with the main board on top of it, those capacitors need to be mounted in a rectangular position. The rectangle shows the position for each bent-over capacitor.
 
