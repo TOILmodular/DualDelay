@@ -3,12 +3,13 @@
 | Description | Value | Quantity | |
 | --- | --- | --- | --- |
 | Resistor 1/4W | 1K | 4 | |
-| Resistor 1/4W | 10K | 6 | |
+| Resistor 1/4W | 10K | 4 | |
 | Resistor 1/4W | 22K | 2 | |
 | Resistor 1/4W | 27K | 4 | |
 | Resistor 1/4W | 47K | 4 | |
 | Resistor 1/4W | 100K | 8 | |
 | Resistor 1/4W | 120K | 2 | |
+| Resistor 1/4W | 10M | 2 | |
 | Capacitor Electrolytic | 10uF | 7 | |
 | Capacitor Ceramic | 0.1uF | 26 | SMD (1608) |
 | Capacitor Ceramic | 0.01uF | 2 | |
