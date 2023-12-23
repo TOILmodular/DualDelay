@@ -1,6 +1,8 @@
 # Dual Delay - PT2399 Dual Delay Effect Eurorack Module
 Simple analog Eurorack dual delay module based on the Dreadbox White Line Echo module.
 
+You can check out some sound demo in my [YouTube video](https://youtu.be/SG4Jhu9ZlaE).
+
 <img height="500" src="https://github.com/TOILmodular/DualDelay/assets/97026614/136cae8c-ddec-4335-830b-79532fee6b81"><img height="500" src="https://github.com/TOILmodular/DualDelay/assets/97026614/4f1385d1-0660-45fc-9a27-415d6ebd3a91">
 
 <img height="500" src="https://github.com/TOILmodular/DualDelay/assets/97026614/03924c09-adc2-4ae8-ba09-daa15417bfbd"><img height="500" src="https://github.com/TOILmodular/DualDelay/assets/97026614/35404820-8cef-4415-9d73-bc863c32f00c">
@@ -36,3 +38,12 @@ Concerning the resistor size, I am usually using small-size resistors, about hal
 On the control board, you will find electrolytic capacitors with a rectangle next to them. Since these capacitors are too tall for standing upright on the board with the main board on top of it, those capacitors need to be mounted in a rectangular position. The rectangle shows the position for each bent-over capacitor.
 
 <img height="300" src="https://github.com/TOILmodular/DualDelay/assets/97026614/46a7719f-bb04-439e-8b7f-10059506cbe2">
+
+## Modification of the Original Design
+I found that the response of the delay time CV in the Dreadbox design is only sensitive in a very thin voltage range. So I tried using different values for the resistor sitting between the CV input and the MMBT3906 transistor. In my current design, the response range of the voltage is much broader, but the range of the delay time change is smaller.
+
+The Dreadbox design is using a 10K resistor. I chose a 10M resistor. You might want to try out different values, depending on what CV response you prefer.
+
+<img height="300" src="https://github.com/TOILmodular/DualDelay/assets/97026614/0fecfd9b-ef1d-4fd4-942e-ef1cdbe6d0ca">
+
+
